@@ -53,13 +53,13 @@ function Header() {
           {/* Right */}
     
           <div className="flex items-center space-x-6">
-            <HeaderLink Icon={HomeRoundedIcon} text="Home" feed active />
-            <HeaderLink Icon={GroupIcon} text="My Network" feed />
-            <HeaderLink Icon={BusinessCenterIcon} text="Jobs" feed hidden />
-            <HeaderLink Icon={ChatIcon} text="Messaging" feed />
-            <HeaderLink Icon={NotificationsIcon} text="Notifications" feed />
+            <HeaderLink Icon={HomeRoundedIcon} text="ホーム" feed active />
+            <HeaderLink Icon={GroupIcon} text="My ネットワーク" feed />
+            <HeaderLink Icon={BusinessCenterIcon} text="企業" feed hidden />
+            <HeaderLink Icon={ChatIcon} text="メッセージ" feed />
+            <HeaderLink Icon={NotificationsIcon} text="通知" feed />
             <HeaderLink Icon={Avatar} text="Me" feed avatar hidden />
-            <HeaderLink Icon={AppsOutlinedIcon} text="Work" feed hidden />
+            <HeaderLink Icon={AppsOutlinedIcon} text="アプリケーション" feed hidden />
     
             {/* Dark mode toggle */}
             {mounted && (
