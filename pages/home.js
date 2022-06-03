@@ -13,7 +13,7 @@ function Home({ providers }) {
     <div className="space-y-10 relative">
       <Head>
         <title>Upcolor</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="https://weblike-upcolor.ssl-lolipop.jp/UpColor/includes/images/Up.png" />
       </Head>
       <header className="flex justify-around items-center py-4">
         <div className="relative w-32 h-10">
