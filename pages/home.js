@@ -49,15 +49,15 @@ function Home({ providers }) {
           </h1>
           <div className="space-y-4">
             <div className="intent">
-              <h2 className="text-xl">学生</h2>
+              <h2 className="text-xl" onClick={() => signIn(provider.id, { callbackUrl: "/" })}>学生</h2>
               <ArrowForwardIosRoundedIcon className="text-gray-700" />
             </div>
             <div className="intent">
-              <h2 className="text-xl">先生</h2>
+              <h2 className="text-xl" onClick={() => signIn(provider.id, { callbackUrl: "/" })}>先生</h2>
               <ArrowForwardIosRoundedIcon className="text-gray-700" />
             </div>
             <div className="intent">
-              <h2 className="text-xl">企業</h2>
+              <h2 className="text-xl" onClick={() => signIn(provider.id, { callbackUrl: "/" })}>企業</h2>
               <ArrowForwardIosRoundedIcon className="text-gray-700" />
             </div>
           </div>
