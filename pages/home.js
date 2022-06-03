@@ -41,7 +41,7 @@ function Home({ providers }) {
           ))}
         </div>
       </header>
-
+      
       <main className="flex flex-col xl:flex-row items-center max-w-screen-lg mx-auto">
         <div className="space-y-6 xl:space-y-10">
           <h1 className="text-5xl md:text-5xl text-amber-800/80 max-w-xl !leading-snug pl-4 xl:pl-0">
@@ -49,20 +49,20 @@ function Home({ providers }) {
           </h1>
           <div className="space-y-4">
             <div className="intent">
-              <h2 className="text-xl" onClick={() => signIn(provider.id, { callbackUrl: "/" })}>学生</h2>
+              <button className="text-xl">学生</button>
               <ArrowForwardIosRoundedIcon className="text-gray-700" />
             </div>
             <div className="intent">
-              <h2 className="text-xl" onClick={() => signIn(provider.id, { callbackUrl: "/" })}>先生</h2>
+              <button className="text-xl">先生</button>
               <ArrowForwardIosRoundedIcon className="text-gray-700" />
             </div>
             <div className="intent">
-              <h2 className="text-xl" onClick={() => signIn(provider.id, { callbackUrl: "/" })}>企業</h2>
+              <button className="text-xl">企業</button>
               <ArrowForwardIosRoundedIcon className="text-gray-700" />
             </div>
           </div>
         </div>
-
+      
         <div className="relative xl:absolute w-80 h-80 xl:w-[850px] xl:h-[850px] top-14 right-5 opacity-50 mt-10">
           <Image src = "https://github.com/0Neokun0/Upcolor/blob/main/project_img/upcolor.png?raw=true" layout="fill" priority />
         </div>
