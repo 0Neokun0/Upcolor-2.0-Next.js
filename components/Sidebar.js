@@ -41,15 +41,7 @@ function Sidebar() {
             </div>
           </div>
 
-          <div className="sidebarButton">
-            <h4 className="leading-4 text-xs">
-              Access exclusive tools & insights
-            </h4>
-            <h4 className="dark:text-white font-medium">
-              <span className="w-3 h-3 bg-gradient-to-tr from-yellow-700 to-yellow-200 inline-block rounded-sm mr-1" />{" "}
-              Try Premium for free
-            </h4>
-          </div>
+          
 
           <div className="sidebarButton flex items-center space-x-1.5">
             <BookmarkOutlinedIcon className="!-ml-1" />
