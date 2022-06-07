@@ -16,3 +16,5 @@ Open https://upcolor2-0-next-js.vercel.app/home with your browser to see the res
 https://tech-parrot.com/programming/next-js-react-js-tigai/
 
 ![next.js](https://www.datocms-assets.com/48401/1644864897-next-framework.jpeg?fit=max&fm=webp&w=900)
+
+![キャプチャ](https://user-images.githubusercontent.com/90218986/172275413-81ab59d6-3bcc-4033-8e2c-779c9a8eacee.PNG)
