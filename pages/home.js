@@ -9,6 +9,11 @@ import Head from "next/head";
 import { getProviders, signIn} from "next-auth/react";
 
 function Home({ providers }) {
+
+  const funcClick = () => {
+    alert("navbarからサインお願い致します。");
+  };
+
   return (
     <div className="space-y-10 relative">
       <Head>
@@ -48,15 +53,15 @@ function Home({ providers }) {
             よこそUPCOLORへ
           </h1>
           <div className="space-y-4">
-            <div className="intent">
+            <div className="intent" onClick={funcClick}>
               <button className="text-xl">学生</button>
               <ArrowForwardIosRoundedIcon className="text-gray-700" />
             </div>
-            <div className="intent">
+            <div className="intent" onClick={funcClick}>
               <button className="text-xl">先生</button>
               <ArrowForwardIosRoundedIcon className="text-gray-700" />
             </div>
-            <div className="intent">
+            <div className="intent" onClick={funcClick}>
               <button className="text-xl">企業</button>
               <ArrowForwardIosRoundedIcon className="text-gray-700" />
             </div>
