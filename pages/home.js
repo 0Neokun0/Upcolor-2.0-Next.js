@@ -11,7 +11,7 @@ import { getProviders, signIn} from "next-auth/react";
 function Home({ providers }) {
 
   const funcClick = () => {
-    alert("navbarからサインお願い致します。");
+    alert("navbarからGoogleメールでサインお願い致します。");
   };
 
   return (
