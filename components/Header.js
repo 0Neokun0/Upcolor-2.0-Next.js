@@ -19,6 +19,13 @@ const spring = {
 };
 
 function Header() {
+
+const funcClick = () => {
+  alert("機能は無効です。");
+};
+
+
+
   const [mounted, setMounted] = useState(false);
   const { setTheme, resolvedTheme, theme } = useTheme();
 
@@ -53,13 +60,25 @@ function Header() {
           {/* Right */}
     
           <div className="flex items-center space-x-6">
+            <div  onClick={funcClick}>
             <HeaderLink Icon={HomeRoundedIcon} text="ホーム" feed active />
+            </div>
+            <div  onClick={funcClick}>
             <HeaderLink Icon={GroupIcon} text="My ネットワーク" feed />
+            </div>
+            <div  onClick={funcClick}>
             <HeaderLink Icon={BusinessCenterIcon} text="企業" feed hidden />
+            </div>
+            <div  onClick={funcClick}>
             <HeaderLink Icon={ChatIcon} text="メッセージ" feed />
+            </div>
+            <div  onClick={funcClick}>
             <HeaderLink Icon={NotificationsIcon} text="通知" feed />
+            </div>
             <HeaderLink Icon={Avatar} text="Me" feed avatar hidden />
+            <div  onClick={funcClick}>
             <HeaderLink Icon={AppsOutlinedIcon} text="アプリケーション" feed hidden />
+            </div>
     
             {/* Dark mode toggle */}
             {mounted && (

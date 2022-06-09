@@ -13,6 +13,11 @@ function Input() {
   const [modalOpen, setModalOpen] = useRecoilState(modalState);
   const [modalType, setModalType] = useRecoilState(modalTypeState);
 
+  const funcClick = () => {
+    alert("機能は無効です。");
+  };
+  
+
   return (
     <div className="bg-white dark:bg-[#1D2226] rounded-lg p-3 space-y-3 border border-gray-300 dark:border-none">
       <div className="flex items-center space-x-2">
@@ -32,7 +37,7 @@ function Input() {
           投稿を開始
         </motion.button>
       </div>
-      <div className="flex items-center flex-wrap gap-4 justify-center md:gap-x-10">
+      <div className="flex items-center flex-wrap gap-4 justify-center md:gap-x-10" onClick={funcClick}>
         <button className="inputButton group">
           <PhotoSizeSelectActualIcon className="text-blue-400" />
           <h4 className="opacity-80 group-hover:opacity-100">写真</h4>
